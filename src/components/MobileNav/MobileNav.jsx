@@ -9,16 +9,16 @@ const MobileNav = ({isOpen,toggleMenu}) => {
                 <img className='logo' src="./assets/images/port2.webp" alt="" />
                 <ul>
                     <li>
-                        <a href='' className='menu-item'>Home</a>
+                        <a href='/' className='menu-item'>Home</a>
                     </li>
                     <li>
-                        <a href='' className='menu-item'>Education</a>
+                        <a href='/' className='menu-item'>Education</a>
                     </li>
                     <li>
-                        <a href='' className='menu-item'>Skills</a>
+                        <a href='/' className='menu-item'>Skills</a>
                     </li>
                     <li>
-                        <a href='' className='menu-item'>Contact Me</a>
+                        <a href='/' className='menu-item'>Contact Me</a>
                     </li>
                     <button className='contact-btn' onClick={()=>{}}>
                       Hire Me
