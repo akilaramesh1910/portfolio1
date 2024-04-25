@@ -2,7 +2,8 @@ import React from 'react'
 import { useState } from 'react';
 import "./Navbar.css"
 import MobileNav from '../MobileNav/MobileNav';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   const [openMenu,setOpenMenu]=useState(false);
@@ -26,13 +27,11 @@ const Navbar = () => {
                   <a href='/' className='menu-item'>Contact Me</a>
                 </li>
                 <button className='contact-btn' onClick={()=>{}}>
-                  Hire Me
+                   Hire Me
                 </button>
             </ul>
             <button class='menu-btn' onClick={toggleMenu}>
-                <span class={"material-symbols-outlined"} style={{fontSize:"1.8rem"}}>
-                    {openMenu ? "close" : "menu"}
-                </span>
+                <FontAwesomeIcon icon={faBars} />
             </button>
         </div>
       </nav>
