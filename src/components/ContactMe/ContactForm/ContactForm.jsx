@@ -1,22 +1,20 @@
 import React from 'react'
 import "./ContactForm.css"
 
-const ContactForm = ({setFirstName,setLastName,handleSubmit}) => {
+const ContactForm = () => {
   return (
     <div className="contact-form-content">
-        <form onSubmit={handleSubmit}>
+        <form>
             <div className="name-container">
                 <input 
                   type="text" 
                   name='firstname' 
                   placeholder='First Name'
-                  onChange={e => setFirstName(e.target.value)}
                 />
                 <input 
                   type="text" 
                   name='lastname' 
                   placeholder='Last Name'
-                  onChange={e => setLastName(e.target.value)}
                 />
             </div>
             <input type="text" name='email' placeholder='Email'/>

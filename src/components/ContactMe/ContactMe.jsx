@@ -3,7 +3,7 @@ import "./ContactMe.css"
 import ContactInfoCard from './ContactInfoCard/ContactInfoCard'
 import ContactForm from './ContactForm/ContactForm'
 
-const ContactMe = ({firstname,setFirstName,lastname,setLastName,handleSubmit}) => {
+const ContactMe = () => {
   return (
     <section className='contact-container'>
         <h5>Contact Me</h5>
@@ -19,13 +19,7 @@ const ContactMe = ({firstname,setFirstName,lastname,setLastName,handleSubmit}) =
                 />
             </div>
             <div style={{flex:1}}>
-                <ContactForm
-                   firstname={firstname}
-                   setFirstName={setFirstName}
-                   lastname={lastname}
-                   setLastName={setLastName}
-                   handleSubmit={handleSubmit}
-                />
+                <ContactForm/>
             </div>
         </div>
     </section>
