@@ -13,7 +13,8 @@ export const SKILLS=[
         title:"Backend",
         icon:"./assets/images/backend-icon.png",
         skills:[
-            {skill:"Node.js",percentage:"50%"},
+            {skill:"Node.js",percentage:"40%"},
+            {skill:"Java",percentage:"85%"},
         ],
     },
     {
